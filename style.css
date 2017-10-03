@@ -1,0 +1,494 @@
+body {
+  margin: 0; /* Убираем отступы */
+  background: #f5f6f7;
+}
+
+.flex{
+  display: flex;
+}
+
+#head{
+  width: 100%;
+  height: 85px;
+  display: flex;
+  background: #ffffff;
+}
+
+.logo{
+  margin-left: 130px;
+  height: 85px;
+  width: 85px;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.search{
+  height: 45px;
+  width: 191px;
+  background: #ffffff;
+  padding-left: 49px;
+  background-image: url("img/search.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  margin-top: 18px;
+}
+
+.link{
+  margin: 35px 0px 0px 32px;
+  text-decoration: none; /*Забрати підкреслення ссилок*/
+  font-size: 14px;
+  color: rgb(109,109,109);
+  font-family: "Roboto-Regular";
+  display: table;
+}
+
+.user{
+  margin: 17px 0px 0px 402px;
+  height: 41px;
+  width: 187px;
+}
+
+.userName{
+  width: 178px;
+  height: 12px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Medium";
+  text-align: right;
+}
+
+.userJob{
+  width: 166px;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(160,160,160);
+  font-family: "Roboto-Regular";
+  text-align: right;
+}
+
+.userFoto{
+  height: 51px;
+  width: 51px;
+  margin-top: 20px;
+}
+
+.dropdownUser{
+  margin: 39px 0px 0px 3px;
+  width: 20px;
+  height: 12px;
+}
+
+#mainFoto{
+  width: auto;
+  height: 401px;
+  background-image: url("img/mainFoto2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover; /*Фото на цілу ширину блоку*/
+  background-attachment: fixed; /*parralax effect*/
+}
+
+#overview{
+  width: auto;
+  height: 549px;
+}
+
+.imgProfile{
+  margin-left: 130px;
+  margin-top: -90px;
+}
+
+.bar{
+  width: auto;
+  height: 82px;
+  background-color: #ffffff;
+  display: -webkit-box;
+}
+
+.textJobInfo{
+  width: 90px;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.numbers{
+  margin-top: -5px;
+  font-size: 24px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+  height: auto;
+}
+
+.jobPosted{
+  margin: 10px 0px 0px 70px;
+}
+
+.jobInfo{
+  margin: 10px 0px 0px 53px;
+}
+
+.info{
+  height: 229px;
+  width: auto;
+  margin: 38px 65px 0px 129px;
+  display: inline-block;
+}
+
+.client{
+  padding-top: 14px;
+  font-size: 12px;
+  color: #51a2fd;
+  font-family: "Roboto-Regular";
+}
+
+.title{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.location{
+  width: 130px;
+  height: 17px;
+  margin-bottom: 10px;
+}
+
+.imgLocation{
+  margin-top: 5px;
+  width: 22px;
+  height: 26px;
+  border-radius: 5px;
+  vertical-align: bottom;
+}
+
+.textLocation{
+  margin-bottom: 0px; 
+  margin-top: 0px; 
+  font-size: 14px;
+  color: rgb(109,109,109);
+  font-family: "Roboto-Regular";
+  display: inline-block;
+}
+
+.textRating{
+  margin: 60px 0px 12px 0px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Medium";
+}
+
+.rating{
+  width: 20px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.about{
+  height: 222px;
+  width: 881px;
+  background: #ffffff;
+  display: inline-block;
+/*  margin-right: 9.027%; */
+}
+
+.textAbout{
+  padding: 30px 0px 0px 26px;
+  width: 300px;
+  height: 12px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Medium";
+}
+
+.aboutUsText{
+  margin: 30px 0px 0px 26px;
+  width: 300px;
+  height: 12px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Medium";
+}
+
+/*.aboutText{
+  margin: 25px 0px 0px 40px;
+  width: 820px;
+  height: 90px;
+  font-size: 14px;
+  color: rgb(109,109,109);
+  font-family: "Roboto-Regular";
+}*/
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-top: 99px;
+}
+
+.lineAbout{
+  width: 100%;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-top: 20px;
+}
+
+#job{
+  padding-left: 130px;
+  width: auto;
+  height: 951px;
+}
+
+.numberJob{
+  margin: 0px 0px 0px 13px;
+  font-size: 30px;
+  color: rgb(21,132,255);
+  font-family: "Roboto-Regular";
+}
+
+.dropdown{
+  margin: 0px 129px 0px 785px;
+  height: 50px;
+  width: 221px;
+}
+
+.jobDetail{
+  padding: 40px 0px 0px 41px;
+  margin-right: 129px;
+  height: 252px;
+  width: auto;
+  background: #ffffff;
+  margin-top: 20px;
+}
+
+.jobLeft{
+    height: auto;
+    width: auto;
+}
+
+.mobileAplications{
+/*  padding: 40px 0px 0px 41px;*/
+  height: 14px;
+  font-size: 12px;
+  color: rgb(0,140,238);
+  font-family: "Roboto-Regular";
+}
+
+.jobTitle{
+  padding-top: 12px;
+  font-size: 24px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.aboutText{
+  padding-left: 26px;
+  width: auto;
+  height: 90px;
+  font-size: 14px;
+  color: rgb(109,109,109);
+  font-family: "Roboto-Regular";
+}
+
+.category{
+  font-size: 12px;
+  color: rgb(21,132,255);
+  font-family: "Roboto-Regular";
+  padding-top: 10px;
+  padding: 5px;
+}
+
+.categoryRectangleF{
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #1583ff;
+}
+
+.categoryRectangle{
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #1583ff;
+}
+
+.jobInfoTitle{
+  width: auto;
+  margin: 0px;
+  font-size: 12px;
+  color: rgb(128,128,128);
+  font-family: "Roboto-Regular";
+}
+
+.jobCenter{
+  height: auto;
+  margin-left: 55px;
+}
+
+.jobPrice{
+  margin: 11px 0px 29px 0px;
+  width: auto;
+  height: 22px;
+  font-size: 24px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+  display: inline-block;
+  font-weight: bold;
+}
+
+.hrs{
+  width: 41px;
+  height: 12px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+}
+
+.date{
+  margin: 14px 0px 23px 0px;
+  width: 180px;
+  height: 12px;
+  font-size: 14px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.jobRight{
+  height: auto;
+}
+
+.btnSeeMore{
+  margin: 44px 0px 9px 0px;
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #2d2d2d;
+}
+
+.btnAplly{
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #47b357;
+}
+
+.btnText{
+  width: auto;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(255,255,255);
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  text-align: center;
+}
+
+#review{
+  padding-left: 130px;
+  height: 707px;
+  width: auto;
+}
+
+.titleReview{
+  margin-top: 69px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.numberReview{
+  margin: 69px 0px 0px 13px;
+  font-size: 30px;
+  color: rgb(21,132,255);
+  font-family: "Roboto-Regular";
+}
+
+.btnCirleLeft{
+  background: url("img/left.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  margin: 69px 9px 0px 870px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+
+.btnCirleRight{
+  background: url("img/right.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  margin: 69px 0px 0px 0px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+
+.userReview{
+  margin-top: 39px;
+  margin-right: 9px;
+  padding: 40px 0px 0px 31px;
+  width: 300px;
+  height: 380px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+/*  opacity: 0.5;  Полупрозрачность элемента */
+}
+
+.userReviewLast{
+  margin-top: 39px;
+  margin-right: 130px;
+  padding: 40px 0px 0px 31px;
+  width: 300px;
+  height: 380px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.reviewFoto{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.reviewUserName{
+  margin: 10px 0px 25px 0px;
+  width: 220px;
+  height: 18px;
+  font-size: 20px;
+  color: rgb(45,45,45);
+  font-family: "Roboto-Regular";
+}
+
+.reviewText{
+  margin-bottom: 35px;
+  width: 220px;
+  height: 90px;
+  font-size: 14px;
+  color: rgb(109,109,109);
+  font-family: "Roboto-Regular";
+}
+
+.ratingReview{
+  width: 17px;
+  height: 15px;
+}
+
+.reviewRating{
+  margin: 0px 0px 0px 10px;
+  width: 24px;
+  height: 10px;
+  font-size: 12px;
+  color: rgb(148,151,153);
+  font-family: "Roboto-Regular";
+}
